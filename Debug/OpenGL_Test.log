@@ -1,0 +1,43 @@
+﻿Build started 3/29/2016 2:31:52 PM.
+     1>Project "C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\OpenGL_Test\OpenGL_Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I"C:\glfw\glfw-3.1.2.bin.WIN32\include" /I"C:\glew\glew-1.13.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(262): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(266): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(509): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(521): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(533): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(581): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(647): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(648): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(649): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(650): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\maths_funcs.cpp(655): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(35): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(166): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(173): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\gl_utils.cpp(183): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\main.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\daniel\documents\visual studio 2013\projects\opengl_test\opengl_test\main.cpp(142): warning C4101: 'tex' : unreferenced local variable
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\Debug\OpenGL_Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\glfw\glfw-3.1.2.bin.WIN32\lib-vc2013" /LIBPATH:"C:\glew\glew-1.13.0\lib\Release\Win32" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\Debug\OpenGL_Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\Debug\OpenGL_Test.lib" /MACHINE:X86 Debug\main.obj
+         OpenGL_Test.vcxproj -> C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\Debug\OpenGL_Test.exe
+     1>Done Building Project "C:\Users\Daniel\documents\visual studio 2013\Projects\OpenGL_Test\OpenGL_Test\OpenGL_Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45
